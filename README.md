@@ -1,4 +1,4 @@
-# explanation-of-decorator
+# Explanation of Decorator
 
  Decorators in Python have puzzled me for quite some time, so I decided to dive in and figure out what's really happening when using decorators.<br>
  
