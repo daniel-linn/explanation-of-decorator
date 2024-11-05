@@ -1,4 +1,4 @@
-# Prerequisites: Having a basic understanding of functions in python
+# Prerequisites: Having a basic understanding of functions in python 
 
 # How decorators works
 # Decorators are like wrapping or packing a present, you wrap it with the first layer, then the second.
