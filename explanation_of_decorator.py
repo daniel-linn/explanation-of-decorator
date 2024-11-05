@@ -84,7 +84,7 @@ decorated_func()
 #
 # What's happening here, and why does the order seem reversed from the expected execution order?
 # The secret is the () symbol, （）is part of the function call syntax
-# You may be familiar with this concept: Everything in Pyhon is Object, even functions.
+# You may be familiar with this concept: Everything in Python is Object, even functions.
 # So function can be object, just like any other variable, 
 # you can also make a variable to a function object, as we have done above
 # Only when you use (), the code in function will be actual called, in other words, executed
@@ -97,10 +97,10 @@ decorated_func()
 # And since it located inside (), that means it will be executed first before the code inside the new_decorator_v2,
 # since python need to know what is the parameter in the (), then it can bring it to the code inside the function(that is, new_decorator_v2)
 #
-# Now we know that second_new_decorator_v2 will execute first due to (), but executed with what?
+# Now we know that second_new_decorator_v2 will execute first due to (), but executes with what?
 # the second_new_decorator_v2 takes a parameter 'decorated_func', it's a function, but this time, we don't use (),
 # meaning the function won't execute, instead, it acts as a parameter of second_new_decorator_v2
-
+#
 # Now things are more clearer: second_new_decorator_v2 executes first, prints something, 
 # and returns the function 'decorated_func' to new_decorator_v2. 
 # Then new_decorator_v2 takes decorated_func as a parameter, executes, print something, 
