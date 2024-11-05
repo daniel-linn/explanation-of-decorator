@@ -26,7 +26,7 @@ def second_new_decorator(f):
     def wrapTheFunction():
         print('wrapping_2')
         f()
-        print('wrappinged_2')
+        print('wrapped_2')
         return f   
     return wrapTheFunction
 
@@ -42,11 +42,11 @@ sim_func()
 
 # result:
 # processing
-# wraping_1
-# wraping_2
+# wrapping_1
+# wrapping_2
 # function called
-# wrapinged_2
-# wraped_1
+# wrapped_2
+# wrapped_1
 '''
 
 # Let's take another example
