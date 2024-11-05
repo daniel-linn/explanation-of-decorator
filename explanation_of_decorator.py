@@ -71,7 +71,7 @@ decorated_func()
 # def decorated_func():
 #     print('function called')
 #
-# c = decorated_func()
+# decorated_func()
 #
 # As you see, python dose read the code from top to bottom
 # 
